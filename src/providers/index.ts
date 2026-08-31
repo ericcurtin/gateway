@@ -16,6 +16,7 @@ import PalmAIConfig from './palm';
 import PerplexityAIConfig from './perplexity-ai';
 import TogetherAIConfig from './together-ai';
 import StabilityAIConfig from './stability-ai';
+import LlmmanConfig from './llmman';
 import OllamaAPIConfig from './ollama';
 import { ProviderConfigs } from './types';
 import GroqConfig from './groq';
@@ -93,6 +94,7 @@ const Providers: { [key: string]: ProviderConfigs } = {
   'stability-ai': StabilityAIConfig,
   nomic: NomicConfig,
   ollama: OllamaAPIConfig,
+  llmman: LlmmanConfig,
   ai21: AI21Config,
   bedrock: BedrockConfig,
   groq: GroqConfig,

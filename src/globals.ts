@@ -59,6 +59,7 @@ export const NCOMPASS: string = 'ncompass';
 export const STABILITY_AI: string = 'stability-ai';
 export const NOMIC: string = 'nomic';
 export const OLLAMA: string = 'ollama';
+export const LLMMAN: string = 'llmman';
 export const AI21: string = 'ai21';
 export const BEDROCK: string = 'bedrock';
 export const GROQ: string = 'groq';
@@ -132,6 +133,7 @@ export const VALID_PROVIDERS = [
   STABILITY_AI,
   NOMIC,
   OLLAMA,
+  LLMMAN,
   AI21,
   BEDROCK,
   GROQ,
